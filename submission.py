@@ -71,7 +71,7 @@ BASE_URL = "http://34.63.153.158"
 API_KEY = "YOUR_API_KEY_HERE"
 
 TASK_ID = "19-stolen-model-detection"
-FILE_PATH = r"E:\UdS - Summer Semester 2026\Trustworthy ML\Assignment 2\submission (3).csv"
+FILE_PATH = r"submission.csv"  # path to your submission CSV
 
 SUBMIT = True
 

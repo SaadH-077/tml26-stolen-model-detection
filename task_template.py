@@ -10,8 +10,8 @@ from huggingface_hub import hf_hub_download
 
 # ── Config ────────────────────────────────────────────────────────────────────
 REPO_ID     = "SprintML/tml26_task2"
-API_KEY     = "eb42d556e05c3c87963b3ae7676f5f42"
-BASE_DIR    = r"E:\UdS - Summer Semester 2026\Trustworthy ML\Assignment 2"
+API_KEY     = "YOUR_API_KEY_HERE"
+BASE_DIR    = r"/path/to/your/project"
 HF_CACHE    = os.path.join(BASE_DIR, "hf_cache")
 os.makedirs(HF_CACHE, exist_ok=True)
 os.environ["HF_HOME"] = HF_CACHE
