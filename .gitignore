@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+
+# Model and dataset caches
+hf_cache/
+cifar100/
+
+# Output files — exclude all except the final winning run
+*.csv
+!submission (4).csv
+!detailed_results (4).csv
+
+# Old notebook versions — exclude all except the winning one
+stolen_model_detection - *.ipynb
+!stolen_model_detection - 1st.ipynb
+
+# Assignment PDFs and internal docs
+*.pdf
+*.txt
+Credentials.txt
+PLAN.md
+CLUSTER_GUIDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
