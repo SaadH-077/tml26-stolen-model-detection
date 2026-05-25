@@ -186,7 +186,7 @@ Score range    Count   Bar
 [0.70, 0.75)   10    ██████████
 [0.75, 0.80)    8    ████████
 [0.80, 0.85)   22    ██████████████████████
-[0.85, 0.90)  176    ████████████████████████████████████ (bulk of suspects)
+[0.85, 0.90)  176    ████████████████████████████████████████████████████████████████████████████████████ (bulk of suspects)
 [0.90, 0.96)   67    ███████████████████████████████████████████████████████
 [0.96, 0.99)   20    ████████████████████
 [0.99, 1.0+)   47    ███████████████████████████████████████████████
@@ -283,7 +283,7 @@ For these, `adv_transfer < soft_agree`. In Run 5 where `behavioral = 0.5*soft + 
 | 2 | `max(w_norm, soft, error_agree)` | Worse | — | Added agreement on target errors — backfired: punishes models that corrected errors |
 | 3 | `max(w_norm, soft, CKA)` | Same as Run 1 | — | CKA dominated by soft via max — no new information |
 | 4 | `max(w_norm, 0.5*soft + 0.5*adv)` | 0.648148 | 3rd | Added adversarial transfer signal |
-| 5 | `max(w_norm, adv, 0.5*soft + 0.5*adv)` | 0.740741 | 1st (tied) | `adv` as standalone catches label-permuted models |
+| 5 | `max(w_norm, adv, 0.5*soft + 0.5*adv)` | 0.740741 | 2nd | `adv` as standalone catches label-permuted models |
 | **6** | **`max(w_norm, soft, adv)`** | **0.759259** | **1st** | **`soft` also as standalone catches fine-tuned where soft > adv** |
 
 ---
