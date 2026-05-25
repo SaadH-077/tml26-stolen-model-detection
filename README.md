@@ -6,7 +6,7 @@ How to recreate the leaderboard submission for Team V
 
 - `stolen_model_detection - 1st.ipynb` — main notebook. Running it end-to-end produces `submission.csv`.
 - `submission.py` — uploads `submission.csv` to the leaderboard endpoint.
-- `submission (4).csv` — the leaderboard-winning submission (Colab appends `(4)` to repeated downloads; the notebook itself writes plain `submission.csv`).
+- `submission (4).csv` — the leaderboard-winning submission.
 - `detailed_results (4).csv` — per-suspect signal breakdown written alongside the submission. Not required for grading.
 - `task_template.py` — the assignment-provided starter, kept for reference. Uses smaller evaluation subsets and does **not** reproduce the leaderboard score; use the notebook for the final result.
 
