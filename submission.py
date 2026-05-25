@@ -68,7 +68,7 @@ One key metric is computed:
   — measures the ability to correctly identify stolen models while keeping the false positive rate at 5%.
 """
 BASE_URL = "http://34.63.153.158"
-API_KEY = "eb42d556e05c3c87963b3ae7676f5f42"
+API_KEY = "YOUR_API_KEY_HERE"
 
 TASK_ID = "19-stolen-model-detection"
 FILE_PATH = r"E:\UdS - Summer Semester 2026\Trustworthy ML\Assignment 2\submission (3).csv"
